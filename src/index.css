@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fontstyle1 {
+  color:#FBB03B;
+  font-size: 23px;
+  font-weight: 700;
+}
+.fontstyle1 > span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fontstyle2{
+  color:#fff;
+  margin:3px 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fontstyle3{
+  color:#fff;
+  font-size: 15px;
+}
+
+.fontstyle4{
+  color:#fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.fontstyle5{
+  font-size: 15px;
+  color: #444444;
+  background-color: #cbcbcb;
+  display: inline-block;
+  margin: 5px;
+  padding: 2px 7px;
+  border-radius: 12px;
+}
+
+.fontstyle6{
+  font-size: 15px;
+  margin: 10px 0px;
+  text-align: left;
+  line-height: 26px;
+}
+
+h5 {
+  color: #FBB03B;
+}
+
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: aquamarine;
+}
+
+
+button {
+  border: none;
+  margin: 15px;
+  color:#FBB03B;
+  font-size: 20px;
+  background-color: #333;
+} /*부트스트랩으로 가져온 nav 텍스트*/
+
+button i {
+  margin: 0px 7px;
+}
+
+.nav-a {
+  border: none;
+  margin: 15px;
+  color:#FBB03B;
+  font-size: 20px;
+  background-color: #333;
+  text-decoration: none;
+  display: inline-block;
+}
+.nav-a:hover {color:#FBB03B;}
+
+.nav-a i {
+  margin: 0px 7px;
+}
+
+
+.innerwrap{
+  padding : 50px 0px;
+}
+
+.leftbox {
+  width : 300px;
+  height: 100%;
+}
+
+.leftbox-0{
+  position: fixed;
+  width : 300px;
+  height: 100%;
+  background-color: #444444;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;  
+  align-items: center;
+}
+
+.leftbox2-1{
+  margin-top: 30px;
+}
+
+.leftbox-1 {
+  width: 140px;
+  height: 180px;
+  margin-top: 40px;
+}
+
+.leftbox-2{
+  height: 500px;
+}
+
+.leftbox img {
+  width:140px;
+}
+
+.rightbox{
+  flex: 1;  /*부모인 app의 item으로 남은 공간 할당*/
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #333;
+}
+
+.rightbox-1{
+  flex: 1;  /*부모인 rightbox의 item으로 남은 공간 할당*/
+  position: relative; /*세부박스 absolute 기준점*/
+  background-color: #333;
+}
+
+.rightbox-1 .innerwrap{
+  display: flex;
+  height: 100%;
+}
+.rightbox1-1, .rightbox1-2 {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.rightbox1-1{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rb1-1-1-1 {
+  margin: 0px 0px 40px 0px;
+}
+
+.rb1-1-textbox img {
+  width: 40px;
+  margin-left: 15px;
+}
+
+.rightbox1-2 {
+  background-color: #fff;
+}
+
+.rightbox1-2 .innerwrap {
+  display: flex;
+  flex-flow : row wrap; 
+}
+
+.rightbox1-2-1{
+  width: 1100px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.rightbox1-2-1 > img {
+  width:500px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+
+.textbox {
+  width:70%; margin:50px 0px;
+}
+.btnbox {
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.btnbox  div {
+  margin: 0 10px 0 0px; background-color: #333333; padding: 5px 15px; border: 1px solid black;
+}
+.btnbox a {
+  color:#fff;
+  text-decoration: none;
+}
+
+.no-scroll {
+  -ms-overflow-style: none; /* IE, Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.no-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}

@@ -234,3 +234,24 @@ button i {
 body {
   -ms-overflow-style: none;
 }
+
+@media(max-width: 840px){
+  
+  .leftbox {display:none;}
+  .rb1-1-1-1 {width:400px;}
+  .rightbox1-2-1 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width:450px;
+    margin: 0 auto;
+  }
+
+  .rightbox1-2-1 > img {
+    width:400px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  h3 {margin:15px;}
+}

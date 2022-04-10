@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import portfolioData from './data.js';
 import './App.css';
 
-
 function App() {
 
   let [menu2, menu2change] = useState(false);

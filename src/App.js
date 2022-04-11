@@ -3,10 +3,19 @@ import React, { useState } from 'react';
 import portfolioData from './data.js';
 import './App.css';
 
+import jQuery from "jquery";
+window.$ = window.jQuery = jQuery;
+
+
 function App() {
 
   let [menu2, menu2change] = useState(false);
   let [portfolio, portfolioChange] = useState(portfolioData);
+  let [preview1, preview1change] = useState(false);
+  let [preview2, preview2change] = useState(false);
+  let [preview3, preview3change] = useState(false);
+  let [preview4, preview4change] = useState(false);
+  let [preview5, preview5change] = useState(false);
 
   return (
     <div className="App">
@@ -100,28 +109,105 @@ function App() {
             </div>
           </div>
 
-
           {
             menu2 === true
               ? <div className="rightbox1-2">
+
+                <div className="btnbox">
+                  <button onClick={() => { preview1change(true) }}>portfolio preview</button>
+                  <button onClick={() => { preview2change(true) }}>propject1 preview</button>
+                  <button onClick={() => { preview3change(true) }}>propject2 preview</button>
+                  <button onClick={() => { preview4change(true) }}>propject3 preview</button>
+                  <button onClick={() => { preview5change(true) }}>propject4 preview</button>
+                </div>
+
                 <div className="innerwrap">
-              {
-                portfolio.map((a, i)=>{
-                  return <Rightbox121 portfolio={a} i={i} key={i}/>
-                })
-              }
-                </div>  
+                  {
+                    portfolio.map((a, i) => {
+                      return <Rightbox121 portfolio={a} i={i} key={i} preview2change={preview2change} />
+                    })
+                  }
+                </div>
+
+                {
+                  preview1 === true
+                    ? <div className="rightbox2 rightbox2-1">
+                      <button className="rigthbox2-1-btn" onClick={() => { preview1change(false) }}><i class="fa-solid fa-arrow-rotate-left"></i>Return</button>
+                      <div className="rightbox2-img">
+                        <img src={require('./img/rightbox1-1.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox1-2.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox1-3.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox1-4.png')} alt="thumbnail" />
+                      </div>
+                      <a href={`https://branchofmee.github.io/portfolio22/index`} target='_blank' className="nav-a"><i class="fa-solid fa-arrow-up-right-from-square"></i>사이트 가기!</a>
+                    </div>
+                    : null
+                }
+                {
+                  preview2 === true
+                    ? <div className="rightbox2 rightbox2-2">
+                      <button className="rigthbox2-1-btn" onClick={() => { preview2change(false) }}><i class="fa-solid fa-arrow-rotate-left"></i>Return</button>
+                      <div className="rightbox2-img">
+                        <img src={require('./img/rightbox2-1.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox2-2.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox2-3.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox2-4.png')} alt="thumbnail" />
+                      </div>
+                      <a href={`https://branchofmee.github.io/portfolio/millie/main.html`} target='_blank' className="nav-a"><i class="fa-solid fa-arrow-up-right-from-square"></i>사이트 가기!</a>
+                    </div>
+                    : null}
+
+                {
+                  preview3 === true
+                    ? <div className="rightbox2 rightbox2-2">
+                      <button className="rigthbox2-1-btn" onClick={() => { preview3change(false) }}><i class="fa-solid fa-arrow-rotate-left"></i>Return</button>
+                      <div className="rightbox2-img">
+                        <img src={require('./img/rightbox3-1.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox3-2.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox3-3.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox3-4.png')} alt="thumbnail" />
+                      </div>
+                      <a href={`https://branchofmee.github.io/portfolio/confer/main.html`} target='_blank' className="nav-a"><i class="fa-solid fa-arrow-up-right-from-square"></i>사이트 가기!</a>
+                    </div>
+                    : null}
+
+                {
+                  preview4 === true
+                    ? <div className="rightbox2 rightbox2-2">
+                      <button className="rigthbox2-1-btn" onClick={() => { preview4change(false) }}><i class="fa-solid fa-arrow-rotate-left"></i>Return</button>
+                      <div className="rightbox2-img">
+                        <img src={require('./img/rightbox4-1.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox4-2.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox4-3.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox4-4.png')} alt="thumbnail" />
+                      </div>
+                      <a href={`https://branchofmee.github.io/portfolio/SiamoNapoli/main.html`} target='_blank' className="nav-a"><i class="fa-solid fa-arrow-up-right-from-square"></i>사이트 가기!</a>
+                    </div>
+                    : null}
+
+                {
+                  preview5 === true
+                    ? <div className="rightbox2 rightbox2-2">
+                      <button className="rigthbox2-1-btn" onClick={() => { preview5change(false) }}><i class="fa-solid fa-arrow-rotate-left"></i>Return</button>
+                      <div className="rightbox2-img">
+                        <img src={require('./img/rightbox5-1.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox5-2.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox5-3.png')} alt="thumbnail" />
+                        <img src={require('./img/rightbox5-4.png')} alt="thumbnail" />
+                      </div>
+                      <a href={`https://branchofmee.github.io/portfolio/LeWeekend/main.html`} target='_blank' className="nav-a"><i class="fa-solid fa-arrow-up-right-from-square"></i>사이트 가기!</a>
+                    </div>
+                    : null}
+
               </div>
               : null
           }
-
         </div>
       </div>
 
     </div>
   );
 }
-
 
 function Rightbox121(props) {
   return (
@@ -144,7 +230,6 @@ function Rightbox121(props) {
           {props.portfolio.content2}<br />
           {props.portfolio.content3}
         </p>
-
       </div>
     </div>
   )

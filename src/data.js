@@ -4,8 +4,8 @@ export default [
     title:"포트폴리오 웹",
     skill: "React",
     skill2: "Bootstrap",
-    content1 : "react를 공부하면서 만든 개인 포트폴리오 웹앱 입니다.",
-    content2 : "Nav는 Bootstrap을 이용하여 만들었습니다.",
+    content1 : "react를 공부하면서 만든 개인 포트폴리오 웹앱으로, 공부한 내용을 계속 반영하고 있습니다!",
+    content2 : "React-Bootstrap을 이용하여 네비게이션을 삽입하였습니다.",
     content3 : "component와 map을 사용하여 코드를 경제적으로 짜는데 중점을 두며 제작하였습니다."
   },
   {

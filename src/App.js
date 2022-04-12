@@ -132,7 +132,9 @@ function App() {
         </div>
       </div>
       </Route>
-      <Route path="/preview/1" component={Preview}></Route>
+      <Route path="/preview/1">
+        <Preview />
+      </Route>
       </Switch>
     </div>
   );

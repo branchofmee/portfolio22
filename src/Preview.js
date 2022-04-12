@@ -5,7 +5,7 @@ function Preview (props){
   let yourHistory = useHistory();
   return(
     <div className="rightbox2 rightbox2-1">
-      <button className="rigthbox2-1-btn" onClick={()=>{ yourHistory.goBack();}}><i class="fa-solid fa-arrow-rotate-left"></i>Return</button>
+      <button className="rigthbox2-1-btn" ><i class="fa-solid fa-arrow-rotate-left"></i>Return</button>
       <div className="rightbox2-img">
         <img src={require('./img/rightbox1-1.png')} alt="thumbnail" />
         <img src={require('./img/rightbox1-2.png')} alt="thumbnail" />

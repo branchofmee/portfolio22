@@ -201,12 +201,7 @@ function App() {
           }
         </div>
       </div>
-      <Route path="/preview">
-        <div>서브페이지입니다.
-          여기에 내용을 입력하세요.
-          <button>버튼</button>
-        </div>
-      </Route>
+      
     </div>
   );
 }

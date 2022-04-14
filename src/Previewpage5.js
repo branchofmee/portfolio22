@@ -7,7 +7,7 @@ function Previewpage5() {
     <Route exact path="/preview5">
     <div className="rightbox2">
       <div className='rightbox2-1'>
-        <Link to="/" className="btn1"><i class="fa-solid fa-arrow-rotate-left"></i>Return</Link>
+        <Link to="/preview0" className="btn1"><i class="fa-solid fa-arrow-rotate-left"></i>Return</Link>
       </div>
       <div className="rightbox2-img">
         <img src={require('./img/rightbox5-1.png')} alt="thumbnail" />

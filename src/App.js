@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      
+
       <div className="leftbox">
         <div className="leftbox-0">
           <div className="leftbox-1">
@@ -48,7 +48,7 @@ function App() {
             <button onClick={() => { menu2change(false) }}><i class="fa-solid fa-code"></i>About Me</button>
           </Nav.Item>
           <Nav.Item>
-            <button onClick={() => { menu2change(true) }}><i class="fa-solid fa-floppy-disk"></i>Work</button>
+            <button onClick={() => { menu2change(true) }}><Link to="/preview0" className="btn1"><i class="fa-solid fa-floppy-disk"></i>Work</Link></button>
           </Nav.Item>
           <Nav.Item><a href={`https://github.com/branchofmee/portfolio22`} target='_blank' className="nav-a"><i class="fab fa-github"></i>Go portfolio github</a></Nav.Item>
           <Nav.Item><a href={`https://github.com/branchofmee/portfolio`} target='_blank' className="nav-a"><i class="fab fa-github"></i>Go project github</a></Nav.Item>
@@ -107,7 +107,7 @@ function App() {
 
             </div>
           </div>
-          
+
           {
             menu2 === true
               ? <div className="rightbox1-2">
@@ -119,29 +119,29 @@ function App() {
                   <Link to="/preview4" className="btnlink">propject3 preview</Link>
                   <Link to="/preview5" className="btnlink">propject4 preview</Link>
                 </div>
-                
-                  <div className="innerwrap">
-                    {
-                      portfolio.map((a, i) => {
-                        return <Rightbox121 portfolio={a} i={i} key={i} />
-                      })
-                    }
-                  </div>
-                
+
+                <div className="innerwrap">
+                <Route exact path="/preview0">
+                  {
+                    portfolio.map((a, i) => {
+                      return <Rightbox121 portfolio={a} i={i} key={i} />
+                    })
+                  }
+  </Route>
+                  <Previewpage1 />
+                  <Previewpage2 />
+                  <Previewpage3 />
+                  <Previewpage4 />
+                  <Previewpage5 />
+                </div>
 
               </div>
 
               : null
           }
-          
+
         </div>
       </div>
-      
-      <Previewpage1 />
-      <Previewpage2 />
-      <Previewpage3 />
-      <Previewpage4 />
-      <Previewpage5 />
 
     </div>
   );

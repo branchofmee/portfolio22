@@ -69,7 +69,6 @@ function App() {
                 </div>
               </div>
 
-
               <div className="rb1-1-1-1">
                 <div className="rb1-1-title">
                   <h5>LICENCE</h5>
@@ -202,7 +201,12 @@ function App() {
           }
         </div>
       </div>
-
+      <Route path="/preview">
+        <div>서브페이지입니다.
+          여기에 내용을 입력하세요.
+          <button>버튼</button>
+        </div>
+      </Route>
     </div>
   );
 }
@@ -232,4 +236,5 @@ function Rightbox121(props) {
     </div>
   )
 }
+
 export default App;

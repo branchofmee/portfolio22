@@ -128,11 +128,6 @@ function App() {
                     }
                   </div>
                 </Route>
-                <Previewpage1 />
-                <Previewpage2 />
-                <Previewpage3 />
-                <Previewpage4 />
-                <Previewpage5 />
 
               </div>
 
@@ -140,6 +135,13 @@ function App() {
           }
         </div>
       </div>
+
+      <Previewpage1 />
+      <Previewpage2 />
+      <Previewpage3 />
+      <Previewpage4 />
+      <Previewpage5 />
+
     </div>
   );
 }
@@ -169,8 +171,5 @@ function Rightbox121(props) {
     </div>
   )
 }
-
-
-
 
 export default App;

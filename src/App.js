@@ -18,6 +18,7 @@ function App() {
 
   return (
     <div className="App">
+      <Route exact path="/">
       <div className="leftbox">
         <div className="leftbox-0">
           <div className="leftbox-1">
@@ -119,7 +120,7 @@ function App() {
                   <Link to="/preview5" className="btnlink">propject4 preview</Link>
                 </div>
 
-                <Route exact path="/">
+                
                   <div className="innerwrap">
                     {
                       portfolio.map((a, i) => {
@@ -127,7 +128,7 @@ function App() {
                       })
                     }
                   </div>
-                </Route>
+                
 
               </div>
 
@@ -135,7 +136,7 @@ function App() {
           }
         </div>
       </div>
-
+      </Route>
       <Previewpage1 />
       <Previewpage2 />
       <Previewpage3 />

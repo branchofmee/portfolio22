@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  margin:0px; padding:0px; box-sizing: border-box;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -198,7 +202,7 @@ button i {
 .rightbox1-2-1 > img {
   width:500px;
   border-radius: 10px;
-  margin-right: 20px;
+  margin-right: 20px; 
 }
 
 .textbox {
@@ -211,21 +215,26 @@ button i {
 }
 
 .btnbox a {
-  color:#fff;
+  color:#444444;
   text-decoration: none;
+  font-size: 14px;
 }
-
-.btnbox button{
+.btnlink {
   background-color: #CBCBCB;
   color:#444444;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   margin:0px 1px 0px 0px;
   height: 45px;
-  font-size: 15px;
   margin-bottom: 3px;
+  padding: 0 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
-.btnbox button:hover{
+
+.btnlink:hover{
   background-color: gray;
 }
 
@@ -246,23 +255,32 @@ body {
 }
 
 .rightbox2{
-  position: absolute;
-  top:10%;
-  left:10%;
-  width:70%;
+  width:100%;
+  height: 100%;
   background-color: rgb(238, 238, 238);
   border-radius: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.rightbox2-1{
+  padding:20px;
+}
+
+.rightbox2-img {
+  width: 70%;
 }
 
 .rightbox2 img{
-  width:300px;
+  width: 400px;
   margin: 20px;
 }
 
 .rightbox2 button{
   border-radius: 10px;
 }
-.rightbox2 a{
+.rightboxa{
   border-radius: 10px;
   padding: 0px 10px;
   margin-bottom: 40px;
@@ -270,6 +288,27 @@ body {
   color:#ff6701;
   font-weight: 600;
   font-size: 18px;
+}
+
+.btn1 {
+  border: none;
+  margin: 10px;
+  color:#FBB03B;
+  background-color: #333;
+  font-size: 20px;
+  padding: 7px 10px;
+  border-radius: 15px;
+  text-decoration: none;
+} 
+
+.btn1 a {
+  text-decoration: none;
+  color:#FBB03B;
+  background-color: #333;
+}
+.btn1:hover {
+  color:#FBB03B;
+  background-color: #333;
 }
 
 

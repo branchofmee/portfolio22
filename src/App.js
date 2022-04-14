@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <Route exact path="/">
+      
       <div className="leftbox">
         <div className="leftbox-0">
           <div className="leftbox-1">
@@ -107,7 +107,7 @@ function App() {
 
             </div>
           </div>
-
+          
           {
             menu2 === true
               ? <div className="rightbox1-2">
@@ -133,9 +133,10 @@ function App() {
 
               : null
           }
+          
         </div>
       </div>
-      </Route>
+      
       <Previewpage1 />
       <Previewpage2 />
       <Previewpage3 />

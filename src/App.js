@@ -119,7 +119,6 @@ function App() {
                   <Link to="/preview4" className="btnlink">propject3 preview</Link>
                   <Link to="/preview5" className="btnlink">propject4 preview</Link>
                 </div>
-
                 
                   <div className="innerwrap">
                     {

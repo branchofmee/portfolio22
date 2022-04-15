@@ -14,8 +14,12 @@ function Previewpage3() {
         <img src={require('./img/rightbox3-2.png')} alt="thumbnail" />
         <img src={require('./img/rightbox3-3.png')} alt="thumbnail" />
         <img src={require('./img/rightbox3-4.png')} alt="thumbnail" />
+        <img src={require('./img/rightbox3-5.png')} alt="thumbnail" />
+        <img src={require('./img/rightbox3-6.png')} alt="thumbnail" />
       </div>
-      <a href={`https://branchofmee.github.io/portfolio/confer/main.html`} target='_blank' className="rightboxa nav-a "><i class="fa-solid fa-arrow-up-right-from-square"></i>사이트 가기!</a>
+      <div className="rightbox2-3">
+        <a href={`https://branchofmee.github.io/portfolio/confer/main.html`} target='_blank' className="rightboxa nav-a "><i class="fa-solid fa-arrow-up-right-from-square"></i>사이트 가기!</a>
+        </div>
     </div>
     </Route>
   )

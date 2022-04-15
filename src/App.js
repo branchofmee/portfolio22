@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Nav } from 'react-bootstrap';
-import { Prev } from 'react-bootstrap/esm/PageItem';
 import portfolioData from './data.js';
+import Rightbox121 from './Rightbox121.js';
 import Previewpage1 from './Previewpage1.js';
 import Previewpage2 from './Previewpage2.js';
 import Previewpage3 from './Previewpage3.js';
@@ -147,30 +147,5 @@ function App() {
   );
 }
 
-function Rightbox121(props) {
-  return (
-    <div className="rightbox1-2-1">
-      <img src={require('./img/portfolio' + (props.i + 1) + '.png')} alt="img" />
-      <div>
-        <h3>
-          {props.portfolio.title}
-        </h3>
-
-        <p className='fontstyle5'>
-          {props.portfolio.skill}
-        </p>
-        <p className='fontstyle5'>
-          {props.portfolio.skill2}
-        </p>
-
-        <p className='fontstyle6' >
-          {props.portfolio.content1}<br />
-          {props.portfolio.content2}<br />
-          {props.portfolio.content3}
-        </p>
-      </div>
-    </div>
-  )
-}
 
 export default App;

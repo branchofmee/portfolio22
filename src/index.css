@@ -8,7 +8,9 @@ body {
 }
 
 * {
-  margin:0px; padding:0px; box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 code {
@@ -17,33 +19,35 @@ code {
 }
 
 .fontstyle1 {
-  color:#FBB03B;
+  color: #FBB03B;
   font-size: 23px;
   font-weight: 700;
 }
-.fontstyle1 > span {
+
+.fontstyle1>span {
   font-size: 16px;
   font-weight: 400;
 }
 
-.fontstyle2{
-  color:#fff;
-  margin:3px 0px;
+.fontstyle2 {
+  color: #fff;
+  margin: 3px 0px;
   font-size: 16px;
   font-weight: 500;
 }
-.fontstyle3{
-  color:#fff;
+
+.fontstyle3 {
+  color: #fff;
   font-size: 15px;
 }
 
-.fontstyle4{
-  color:#fff;
+.fontstyle4 {
+  color: #fff;
   font-size: 15px;
   letter-spacing: 1px;
 }
 
-.fontstyle5{
+.fontstyle5 {
   font-size: 15px;
   color: #444444;
   background-color: #cbcbcb;
@@ -53,7 +57,7 @@ code {
   border-radius: 12px;
 }
 
-.fontstyle6{
+.fontstyle6 {
   font-size: 15px;
   margin: 10px 0px;
   text-align: left;
@@ -69,17 +73,18 @@ h5 {
   width: 100vw;
   height: 100vh;
   display: flex;
-  background-color: aquamarine;
 }
 
 
 button {
   border: none;
   margin: 15px;
-  color:#FBB03B;
+  color: #FBB03B;
   font-size: 20px;
   background-color: #333;
-} /*부트스트랩으로 가져온 nav 텍스트*/
+}
+
+/*부트스트랩으로 가져온 nav 텍스트*/
 
 button i {
   margin: 0px 7px;
@@ -88,40 +93,43 @@ button i {
 .nav-a {
   border: none;
   margin: 15px;
-  color:#FBB03B;
+  color: #FBB03B;
   font-size: 20px;
   background-color: #333;
   text-decoration: none;
   display: inline-block;
 }
-.nav-a:hover {color:#FBB03B;}
+
+.nav-a:hover {
+  color: #FBB03B;
+}
 
 .nav-a i {
   margin: 0px 7px;
 }
 
 
-.innerwrap{
-  padding : 50px 0px;
+.innerwrap {
+  padding: 50px 0px;
 }
 
 .leftbox {
-  width : 300px;
+  width: 300px;
   height: 100%;
 }
 
-.leftbox-0{
+.leftbox-0 {
   position: fixed;
-  width : 300px;
+  width: 300px;
   height: 100%;
   background-color: #444444;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
 }
 
-.leftbox2-1{
+.leftbox2-1 {
   margin-top: 30px;
 }
 
@@ -131,41 +139,45 @@ button i {
   margin-top: 40px;
 }
 
-.leftbox-2{
+.leftbox-2 {
   height: 500px;
 }
 
 .leftbox img {
-  width:140px;
+  width: 140px;
 }
 
-.rightbox{
-  flex: 1;  /*부모인 app의 item으로 남은 공간 할당*/
+.rightbox {
+  flex: 1;
+  /*부모인 app의 item으로 남은 공간 할당*/
   display: flex;
   flex-flow: column wrap;
   background-color: #333;
 }
 
-.rightbox-1{
-  flex: 1;  /*부모인 rightbox의 item으로 남은 공간 할당*/
-  position: relative; /*세부박스 absolute 기준점*/
+.rightbox-1 {
+  flex: 1;
+  /*부모인 rightbox의 item으로 남은 공간 할당*/
+  position: relative;
+  /*세부박스 absolute 기준점*/
   background-color: #333;
 }
 
-.rightbox-1 .innerwrap{
+.rightbox-1 .innerwrap {
   display: flex;
   height: 100%;
 }
+
 .rightbox1-1, .rightbox1-2 {
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: 100%; 
 }
 
 
-.rightbox1-1{
+.rightbox1-1 {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -187,10 +199,11 @@ button i {
 
 .rightbox1-2 .innerwrap {
   display: flex;
-  flex-flow : row wrap; 
+  flex-flow: row wrap;
+  padding: 0px;
 }
 
-.rightbox1-2-1{
+.rightbox1-2-1 {
   width: 1100px;
   margin-bottom: 40px;
   display: flex;
@@ -199,32 +212,34 @@ button i {
   padding: 40px 20px;
 }
 
-.rightbox1-2-1 > img {
-  width:500px;
+.rightbox1-2-1>img {
+  width: 500px;
   border-radius: 10px;
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
 .textbox {
-  width:70%; margin:50px 0px;
+  width: 70%;
+  margin: 50px 0px;
 }
 
 .btnbox {
-  display: flex; 
+  display: flex;
   border-bottom: 2px solid #d7d8db;
 }
 
 .btnbox a {
-  color:#444444;
+  color: #444444;
   text-decoration: none;
   font-size: 14px;
 }
+
 .btnlink {
   background-color: #CBCBCB;
-  color:#444444;
+  color: #444444;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  margin:0px 1px 0px 0px;
+  margin: 0px 1px 0px 0px;
   height: 45px;
   margin-bottom: 3px;
   padding: 0 5px;
@@ -234,16 +249,20 @@ button i {
   align-items: center;
 }
 
-.btnlink:hover{
+.btnlink:hover {
   background-color: gray;
 }
 
 .no-scroll {
-  -ms-overflow-style: none; /* IE, Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE, Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
+
 .no-scroll::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+  display: none;
+  /* Chrome, Safari, Opera */
 }
 
 ::-webkit-scrollbar {
@@ -254,38 +273,39 @@ body {
   -ms-overflow-style: none;
 }
 
-.rightbox2{
+.rightbox2 {
   position: absolute;
-  height: 100%;
+  min-height: 100%;
   z-index: 300;
-  border-radius: 10px;
   display: flex;
   flex-flow: column;
   align-items: center;
+  background-color: rgb(235, 235, 235);
 }
 
-.rightbox2-1{
-  padding:20px;
+.rightbox2-1 {
+  padding: 20px;
 }
 
 .rightbox2-img {
-  width: 70%;
+  padding: 20px 100px;
 }
 
-.rightbox2 img{
+.rightbox2 img {
   width: 400px;
   margin: 20px;
 }
 
-.rightbox2 button{
+.rightbox2 button {
   border-radius: 10px;
 }
-.rightboxa{
+
+.rightboxa {
   border-radius: 10px;
   padding: 0px 10px;
   margin-bottom: 40px;
   background-color: #fff;
-  color:#ff6701;
+  color: #ff6701;
   font-weight: 600;
   font-size: 18px;
 }
@@ -293,43 +313,95 @@ body {
 .btn1 {
   border: none;
   margin: 10px;
-  color:#FBB03B;
+  color: #FBB03B;
   background-color: #333;
   font-size: 20px;
-  padding: 7px 10px;
+  padding: 5px 15px;
   border-radius: 15px;
   text-decoration: none;
-} 
+}
 
 .btn1 a {
   text-decoration: none;
-  color:#FBB03B;
+  color: #FBB03B;
   background-color: #333;
 }
+
 .btn1:hover {
-  color:#FBB03B;
+  color: #FBB03B;
   background-color: #333;
 }
 
-.rightbox2-3{width:500px;}
+.rightbox2-3 {
+  width: 500px;
+  margin-bottom: 50px;
+}
 
-@media(max-width: 840px){
-  
-  .leftbox {display:none;}
-  .rb1-1-1-1 {width:400px;}
+
+@media all and (min-width:768px) and (max-width:1023px) {
+  .rightbox1-2-1{
+    display: flex;
+    flex-flow: column;
+    padding: 30px;
+  }
+
+  .rightbox1-1 {
+    top: 50px;
+    background-color: #333;
+    height: auto;
+  }
+  .rightbox1-2{
+    z-index: 300;
+    background-color: #fff;
+    height: auto;
+  }
+}
+
+
+@media(max-width: 767px) {
+  .leftbox {
+    display: none;
+  }
+
+  .rb1-1-1-1 {
+    width: 400px;
+    
+  }
+
   .rightbox1-2-1 {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    width:450px;
+    width: 450px;
     margin: 0 auto;
   }
 
-  .rightbox1-2-1 > img {
-    width:400px;
+  .rightbox1-2-1>img {
+    width: 400px;
     border-radius: 10px;
     margin-right: 20px;
   }
 
-  h3 {margin:15px;}
+  .btnbox a {
+    font-size: 13px;
+  }
+
+  h3 {
+    margin: 15px;
+  }
+
+  .rightbox2-img {
+    padding: 0px;
+  }
+
+  .rightbox1-1 {
+    top: 50px;
+    background-color: #333;
+    height: auto;
+  }
+  .rightbox1-2{
+    z-index: 300;
+    background-color: #fff;
+    height: auto;
+  }
 }

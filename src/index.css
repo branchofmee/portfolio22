@@ -355,13 +355,6 @@ body {
     background-color: #fff;
     height: auto;
   }
-}
-
-
-@media(max-width: 767px) {
-  .leftbox {
-    display: none;
-  }
 
   .rb1-1-1-1 {
     width: 400px;
@@ -380,6 +373,48 @@ body {
     width: 400px;
     border-radius: 10px;
     margin-right: 20px;
+  }
+}
+
+
+@media(max-width: 767px) {
+  .leftbox {
+    display: none;
+  }
+
+  .nav-a {
+    margin: 12px;
+    font-size: 17px;
+  }
+
+  
+  .btn1 {
+    font-size: 17px;
+    padding: 5px 13px;
+  }
+
+
+  .rb1-1-1-1 {
+    width: 300px;
+    
+  }
+  .rightbox1-2 .innerwrap{
+    display: flex;
+    flex-flow: column;
+  }
+
+  .rightbox1-2-1 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .rightbox1-2-1>img {
+    width: 280px;
+    border-radius: 10px;
+    margin-right: 0px;
   }
 
   .btnbox a {

@@ -121,13 +121,13 @@ function App() {
                 </div>
 
                 <div className="innerwrap">
-                <Route exact path="/preview0">
-                  {
-                    portfolio.map((a, i) => {
-                      return <Rightbox121 portfolio={a} i={i} key={i} />
-                    })
-                  }
-  </Route>
+                  <Route exact path="/preview0">
+                    {
+                      portfolio.map((a, i) => {
+                        return <Rightbox121 portfolio={a} i={i} key={i} />
+                      })
+                    }
+                  </Route>
                   <Previewpage1 />
                   <Previewpage2 />
                   <Previewpage3 />

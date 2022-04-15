@@ -383,20 +383,13 @@ body {
   }
 
   .nav-a {
-    margin: 12px;
-    font-size: 17px;
+    margin: 10px;
+    margin-bottom: 17px;
+    font-size: 16px;
   }
-
   
-  .btn1 {
-    font-size: 17px;
-    padding: 5px 13px;
-  }
-
-
   .rb1-1-1-1 {
-    width: 300px;
-    
+    width: 310px;
   }
   .rightbox1-2 .innerwrap{
     display: flex;
@@ -407,12 +400,12 @@ body {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 310px;
     margin: 0 auto;
   }
 
   .rightbox1-2-1>img {
-    width: 280px;
+    width: 290px;
     border-radius: 10px;
     margin-right: 0px;
   }

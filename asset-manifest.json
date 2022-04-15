@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio22/static/css/main.5bccc5ea.css",
-    "main.js": "/portfolio22/static/js/main.4fbef342.js",
+    "main.css": "/portfolio22/static/css/main.3fa0d710.css",
+    "main.js": "/portfolio22/static/js/main.5f918da9.js",
     "static/js/787.245be69d.chunk.js": "/portfolio22/static/js/787.245be69d.chunk.js",
     "static/media/portfolio4.png": "/portfolio22/static/media/portfolio4.8fa8f40b2c9a30dbd36e.png",
     "static/media/rightbox4-1.png": "/portfolio22/static/media/rightbox4-1.64c0e5ca55032126cf77.png",
+    "static/media/rightbox4-5.png": "/portfolio22/static/media/rightbox4-5.ed0576c3b4f4b84bec2d.png",
     "static/media/rightbox4-4.png": "/portfolio22/static/media/rightbox4-4.beb2d6870ee1b7306df4.png",
     "static/media/rightbox4-3.png": "/portfolio22/static/media/rightbox4-3.195ab22e4904965653b9.png",
     "static/media/portfolio3.png": "/portfolio22/static/media/portfolio3.08064af3b3b7f20d2308.png",
     "static/media/rightbox5-1.png": "/portfolio22/static/media/rightbox5-1.59fda8f5b5e4555870a6.png",
     "static/media/portfolio5.png": "/portfolio22/static/media/portfolio5.3cb55fa2d0d718275830.png",
+    "static/media/rightbox4-6.png": "/portfolio22/static/media/rightbox4-6.6ec43eb6f9b22808dc23.png",
     "static/media/rightbox2-2.png": "/portfolio22/static/media/rightbox2-2.e1daa30389fdb3aaf59a.png",
     "static/media/rightbox3-1.png": "/portfolio22/static/media/rightbox3-1.3e1c00259e87cea76241.png",
+    "static/media/rightbox3-5.png": "/portfolio22/static/media/rightbox3-5.29747fb452d0d14292f3.png",
+    "static/media/rightbox1-6.png": "/portfolio22/static/media/rightbox1-6.a255aa2431c73d69d83c.png",
     "static/media/rightbox3-3.png": "/portfolio22/static/media/rightbox3-3.d914c1c77606405ded1e.png",
     "static/media/rightbox5-4.png": "/portfolio22/static/media/rightbox5-4.410daee822df958f7485.png",
     "static/media/rightbox2-3.png": "/portfolio22/static/media/rightbox2-3.70c515f709d0c55b90a8.png",
@@ -22,11 +26,17 @@
     "static/media/rightbox5-3.png": "/portfolio22/static/media/rightbox5-3.0658e28ccec60d05953b.png",
     "static/media/rightbox1-3.png": "/portfolio22/static/media/rightbox1-3.5351f7e91ddf01283153.png",
     "static/media/rightbox3-2.png": "/portfolio22/static/media/rightbox3-2.73c5e695d0b258d375ff.png",
+    "static/media/rightbox5-5.png": "/portfolio22/static/media/rightbox5-5.fcec293dd78e9bf80a31.png",
     "static/media/portfolio2.png": "/portfolio22/static/media/portfolio2.028235dcbe7b3f541087.png",
+    "static/media/rightbox1-5.png": "/portfolio22/static/media/rightbox1-5.31363451b72a1dcdd068.png",
+    "static/media/rightbox5-6.png": "/portfolio22/static/media/rightbox5-6.6045451b9cb1d0240858.png",
     "static/media/rightbox2-1.png": "/portfolio22/static/media/rightbox2-1.4a6fc59a5acd9f2da362.png",
+    "static/media/rightbox2-5.png": "/portfolio22/static/media/rightbox2-5.2f0731dc30351438b538.png",
     "static/media/rightbox1-2.png": "/portfolio22/static/media/rightbox1-2.08566b544720df644ff1.png",
     "static/media/rightbox3-4.png": "/portfolio22/static/media/rightbox3-4.21de3c740f8073fd0f0f.png",
     "static/media/pic.jpg": "/portfolio22/static/media/pic.a828f83d905a615c00ec.jpg",
+    "static/media/rightbox3-6.png": "/portfolio22/static/media/rightbox3-6.4eed9cf7261685a3539e.png",
+    "static/media/rightbox2-6.png": "/portfolio22/static/media/rightbox2-6.93aa8c09f879dac996b5.png",
     "static/media/rightbox1-1.png": "/portfolio22/static/media/rightbox1-1.e3607b02180a2897ab11.png",
     "static/media/portfolio1.png": "/portfolio22/static/media/portfolio1.333cf73eef79c826211f.png",
     "static/media/jquery.png": "/portfolio22/static/media/jquery.c7053ee01a627e5e7b65.png",
@@ -38,12 +48,12 @@
     "static/media/js.png": "/portfolio22/static/media/js.257e5845db83ec0ad44f.png",
     "static/media/html.png": "/portfolio22/static/media/html.3299cda8e17a1b5748d5.png",
     "index.html": "/portfolio22/index.html",
-    "main.5bccc5ea.css.map": "/portfolio22/static/css/main.5bccc5ea.css.map",
-    "main.4fbef342.js.map": "/portfolio22/static/js/main.4fbef342.js.map",
+    "main.3fa0d710.css.map": "/portfolio22/static/css/main.3fa0d710.css.map",
+    "main.5f918da9.js.map": "/portfolio22/static/js/main.5f918da9.js.map",
     "787.245be69d.chunk.js.map": "/portfolio22/static/js/787.245be69d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bccc5ea.css",
-    "static/js/main.4fbef342.js"
+    "static/css/main.3fa0d710.css",
+    "static/js/main.5f918da9.js"
   ]
 }

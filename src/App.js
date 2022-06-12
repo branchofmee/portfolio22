@@ -23,17 +23,13 @@ function App() {
       <div className="leftbox">
         <div className="leftbox-0">
           <div className="leftbox-1">
-            <img src={require('./img/pic.jpg')} alt="photo" />
+            <img src={require('.')} alt="photo" />
           </div>
           <div className="leftbox-2">
             <p className="fontstyle1">배미경<br /><span> Bae Mee Gyung</span></p>
             <div className="leftbox2-1">
-              <p className="fontstyle2">BIRTH</p>
-              <p className="fontstyle3">1990.05.02</p>
               <p className="fontstyle2">E-MAIL</p>
               <p className="fontstyle3">branchofmee@gmail.com</p>
-              <p className="fontstyle2">EDUCATION</p>
-              <p className="fontstyle3">숙명여자대학교 문헌정보학과 졸업</p>
             </div>
 
           </div>
@@ -77,7 +73,7 @@ function App() {
                   <h5>LICENCE</h5>
                 </div>
                 <div className="rb1-1-textbox">
-                  <p className="fontstyle4">웹디자인 기능사(필기 합격)</p>
+                  <p className="fontstyle4">.</p>
                 </div>
               </div>
 
@@ -86,7 +82,7 @@ function App() {
                   <h5>TRAINING</h5>
                 </div>
                 <div className="rb1-1-textbox">
-                  <p className="fontstyle4">이젠컴퓨터학원 웹퍼블리셔 UI/UX 프론트엔드 양성과정 수료(2022년 3월)</p>
+                  <p className="fontstyle4">.</p>
                 </div>
               </div>
 
